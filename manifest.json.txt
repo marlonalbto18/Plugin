@@ -10,3 +10,11 @@
    ]
 }
 // nodemon.json.txt
+{
+   "ignore": [
+      "dist/*",
+      "dist"
+   ],
+   "exec": "npm run build",
+   "ext": "*.*"
+}
