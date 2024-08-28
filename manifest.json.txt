@@ -9,7 +9,7 @@
       }
    ]
 }
-// nodemon.json.txt
+// nodemon.json
 {
    "ignore": [
       "dist/*",
@@ -18,3 +18,4 @@
    "exec": "npm run build",
    "ext": "*.*"
 }
+// package.json
