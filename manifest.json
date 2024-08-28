@@ -9,7 +9,7 @@
       }
    ]
 }
-// nodemon.json
+
 {
    "ignore": [
       "dist/*",
@@ -18,7 +18,7 @@
    "exec": "npm run build",
    "ext": "*.*"
 }
-// package.json
+
 {
    "name": "plugin-template",
    "description": "Template for enmity plugins.",
@@ -50,7 +50,7 @@
       "enmity": "*"
    }
 }
-// rollup.config.ts
+
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import esbuild from 'rollup-plugin-esbuild';
